@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="file"]::-webkit-file-upload-button {
+  opacity: 0;
+}
+input[type="file"]::file-selector-button {
+  opacity: 0;
+}
+
+input[type="file"] {
+  position: absolute;
+  left: -9999px;
+}
